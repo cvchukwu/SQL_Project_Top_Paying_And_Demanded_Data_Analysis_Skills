@@ -1,11 +1,9 @@
 SELECT
-    job_title_short,
+    job_id,
     job_title,
     job_location,
-    job_via,
     job_schedule_type,
     job_posted_date::date,
-    job_country,
     salary_year_avg,
     name AS company_name
 FROM 
